@@ -19,6 +19,8 @@ import {
   Grid,
   Box,
   Image,
+  Text,
+  Link
 } from "spectacle";
 import { node } from "prop-types";
 
@@ -133,6 +135,7 @@ const App = () => (
         <Heading margin="0px 32px" color="primary" fontSize="h3">
           Where you can write your decks in JSX, Markdown, or MDX!
         </Heading>
+        <Text><Link href="https://github.com/chrislacey89/fusion-intro-presentation">https://github.com/chrislacey89/fusion-intro-presentation</Link></Text>
       </FlexBox>
     </Slide>
   </Deck>
